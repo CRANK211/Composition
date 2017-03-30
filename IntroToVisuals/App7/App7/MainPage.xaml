@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="App7.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <Rectangle x:Name="Background"
+                   Fill="Blue"
+                   Height="500"
+                   Width="500"/>
+        
+        <Grid x:Name="FancyGrid"
+              Height="500"
+              Width="500"
+              Background="Yellow">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock TextWrapping="WrapWholeWords">Yada, Yada, Blah Blah,Yada, Yada, Blah Blah,Yada, Yada, Blah Blah,Yada, Yada, Blah Blah,Yada, Yada, Blah Blah,Yada, Yada, Blah Blah,Yada, Yada, Blah Blah,Yada, Yada, Blah Blah,</TextBlock>
+            
+            <StackPanel Orientation="Horizontal"
+                        Grid.Row="1">
+                <Button Margin="12">Click Me</Button>
+                <Button Margin="12">Click Me</Button>
+                <Button Margin="12">Click Me</Button>
+                <Button Margin="12">Click Me</Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>
