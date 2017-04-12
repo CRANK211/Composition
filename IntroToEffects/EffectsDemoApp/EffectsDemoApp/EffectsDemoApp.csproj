@@ -97,6 +97,9 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Effects\BaseEffectControl.cs" />
+    <Compile Include="Effects\AnimatedEffectControl.xaml.cs">
+      <DependentUpon>AnimatedEffectControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Effects\SaturationEffectControl.xaml.cs">
       <DependentUpon>SaturationEffectControl.xaml</DependentUpon>
     </Compile>
@@ -132,6 +135,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Effects\AnimatedEffectControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Effects\SaturationEffectControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

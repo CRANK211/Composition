@@ -13,6 +13,7 @@ namespace EffectsDemoApp.Effects
         {
             Add(new EffectUiWrapper { EffectName = "Blur Effect", UserControlType = typeof(BlurEffectControl) });
             Add(new EffectUiWrapper { EffectName = "Saturation Effect", UserControlType = typeof(SaturationEffectControl) });
+            Add(new EffectUiWrapper { EffectName = "Animated Effect", UserControlType = typeof(AnimatedEffectControl) });
         }
     }
 }
